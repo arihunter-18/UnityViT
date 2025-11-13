@@ -36,7 +36,7 @@ This research investigates a critical question: **Does the single-head attention
 ### Research Contributions
 
 ✅ **Implemented GAP-1**: Complete adversarial evaluation framework with FGSM and PGD attacks  
-✅ **Implemented GAP-4**: Attention disruption visualization with TAH, ASM, and Grad-CAM  
+✅ **Implemented GAP-2**: Attention disruption visualization with TAH, ASM, and Grad-CAM  
 ✅ **Comparative Benchmarking**: Systematic comparison between SHViT-S4 and ViT-Base  
 ✅ **Visualization Pipeline**: Publication-ready figures and statistical analysis  
 ✅ **Comprehensive Metrics**: Attack Success Rate (ASR), robust accuracy, attention stability
@@ -51,13 +51,6 @@ This research investigates a critical question: **Does the single-head attention
 |:---:|:---:|:---:|:---|
 | **SHViT-S4** | 16.59M | 256×256 | Primary target - single-head architecture |
 | **ViT-Base** | ~86M | 224×224 | Baseline - traditional multi-head transformer |
-
-### Hardware Configuration
-
-- **GPU**: NVIDIA GeForce RTX 3050 6GB Laptop GPU
-- **CUDA**: 11.8 with automatic device selection
-- **CPU**: Multi-core with 10 data loading workers
-- **RAM**: 16GB system memory
 
 ### Dataset
 
@@ -412,5 +405,6 @@ Special thanks to the open-source computer vision and adversarial ML communities
 5. **Reproducible research**: All code, data, and results documented
 
 ---
+
 
 
