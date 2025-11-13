@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+checkpoint*.pth
+*.safetensors
+
+# Data
+datasets/
+data/imagenet*/
+data/coco/
+*.tar
+*.zip
+*.gz
+
+# Outputs
+outputs/
+logs/
+runs/
+wandb/
+tensorboard_logs/
+*.log
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Model exports
+*.onnx
+*.mlmodel
+*.tflite
+*.pb
+
+# Experimental
+experiments/
+scratch/
+test_outputs/
+debug/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Testing
+.pytest_cache/
+.tox/
+
+# Environment variables
+.env
+.env.local
+
